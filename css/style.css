@@ -231,13 +231,13 @@ main{
 }
 @media  all and (max-width:800px) {
     #EILAT-seconde{
-        font-size: 2vh;
+        font-size: 1vh;
     }
     #TLV-seconde{
-        font-size: 2vh;
+        font-size: 1vh;
     }
     #JERUSALEM-seconde{
-        font-size: 2vh;
+        font-size: 1vh;
     }
     #JERUSALEM-first img:hover{
         transform: scale(1.5);
