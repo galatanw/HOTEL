@@ -250,4 +250,8 @@ main{
     #TLV-first img:hover{
         transform: scale(1.5);
     }
+    header{
+        width:100%;
+        height: 50vh;
+    }
 }
