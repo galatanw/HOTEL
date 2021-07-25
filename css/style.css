@@ -229,7 +229,9 @@ main{
     font-size: 5vh;
     
 }
-@media  all and (max-width:800px) {
+@media only screen and (max-width:800px) {
+    body{
+        background: black;    }
     #EILAT-seconde{
         font-size: 5pt;
     }
