@@ -230,16 +230,16 @@ main{
     
 }
 @media only screen and (max-width:800px) {
-    body{
-        background: black;    }
+    /* body{
+        background: black;    } */
     #EILAT-seconde{
-        font-size: 1vw;
+        font-size: 1vh;
     }
     #TLV-seconde{
-        font-size: 1vw;
+        font-size: 1vh;
     }
     #JERUSALEM-seconde{
-        font-size: 1vw;
+        font-size: 1vh;
     }
     #JERUSALEM-first img:hover{
         transform: scale(1.5);
