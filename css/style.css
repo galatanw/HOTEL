@@ -230,8 +230,8 @@ main{
     
 }
 @media only screen and (max-width:600px) {
-    /* body{
-        background: black;    } */
+    body{
+        background: rgb(71, 13, 13);    }
     #EILAT-seconde{
         font-size: large;
     }
@@ -256,8 +256,8 @@ main{
     }
 }
 @media only screen and (max-width:800px) and (min-width:600px) {
-    /* body{
-        background: black;    } */
+    body{
+        background: black;    }
     #EILAT-seconde{
         font-size: large;
     }
@@ -282,8 +282,8 @@ main{
     }
 }
 @media only screen and (min-width:800px) and (max-width:1200px) {
-    /* body{
-        background: black;    } */
+    body{
+        background: black;    }
     #EILAT-seconde{
         font-size: xx-large;
     }
