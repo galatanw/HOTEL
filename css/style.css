@@ -233,13 +233,13 @@ main{
     body{
         background: black;    }
     #EILAT-seconde{
-        font-size: 12pt;
+        font-size: 1vw;
     }
     #TLV-seconde{
-        font-size: 12pt;
+        font-size: 1vw;
     }
     #JERUSALEM-seconde{
-        font-size: 12pt;
+        font-size: 1vw;
     }
     #JERUSALEM-first img:hover{
         transform: scale(1.5);
