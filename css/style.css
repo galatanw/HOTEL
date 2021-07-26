@@ -183,8 +183,8 @@ main{
 
 #EILAT{
     width: 100%;
-        background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
-  
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    
 }
 #EILAT-first img{
     
@@ -200,7 +200,7 @@ main{
     color: royalblue;
     text-align: right;
     font-size: 5vh;
-
+    
     
 }
 
@@ -210,7 +210,7 @@ main{
     top: 20vh;
     right:67vw ;
     text-align: right;
-
+    
 }
 
 #JERUSALEM-first img{
@@ -229,69 +229,45 @@ main{
     font-size: 5vh;
     
 }
+.query{display: none;}
 @media only screen and (max-width:600px) {
     body{
         background: rgb(71, 13, 13);    }
-    #EILAT-seconde{
-        font-size: large;
+        #EILAT-seconde{
+            font-size: large;
+        }
+        #TLV-seconde{
+            font-size: large;
+        }
+        #JERUSALEM-seconde{
+            font-size: large;
+        }
+        #JERUSALEM-first img:hover{
+            transform: scale(1.5);
+        }
+        #EILAT-first img:hover{
+            transform: scale(1.5);
+        }
+        #TLV-first img:hover{
+            transform: scale(1.5);
+        }
+        header{
+            width:100%;
+            height: 50vh;
+        }
     }
-    #TLV-seconde{
-        font-size: large;
-    }
-    #JERUSALEM-seconde{
-        font-size: large;
-    }
-    #JERUSALEM-first img:hover{
-        transform: scale(1.5);
-    }
-    #EILAT-first img:hover{
-        transform: scale(1.5);
-    }
-    #TLV-first img:hover{
-        transform: scale(1.5);
-    }
-    header{
-        width:100%;
-        height: 50vh;
-    }
-}
-@media only screen and (max-width:800px) and (min-width:600px) {
-    body{
-        background: black;    }
-    #EILAT-seconde{
-        font-size: large;
-    }
-    #TLV-seconde{
-        font-size: large;
-    }
-    #JERUSALEM-seconde{
-        font-size: large;
-    }
-    #JERUSALEM-first img:hover{
-        transform: scale(1.5);
-    }
-    #EILAT-first img:hover{
-        transform: scale(1.5);
-    }
-    #TLV-first img:hover{
-        transform: scale(1.5);
-    }
-    header{
-        width:100%;
-        height: 50vh;
-    }
-}
 @media only screen and (min-width:800px) and (max-width:1200px) {
+    .query{display: block;}
     body{
         background: black;    }
     #EILAT-seconde{
         font-size: xx-large;
     }
     #TLV-seconde{
-        font-size: large;
+        font-size: xx-large;
     }
     #JERUSALEM-seconde{
-        font-size: large;
+        font-size: xx-large;
     }
     #JERUSALEM-first img:hover{
         transform: scale(1.5);
