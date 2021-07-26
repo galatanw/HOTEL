@@ -233,7 +233,7 @@ main{
 
 @media only screen and (min-width:300px) and (max-width:1200px) {
     .big_screen{display: none;}
-    .query{display: block;}
+    .query{display:flex;}
     body{
         background: black;    }
     #EILAT-seconde{
